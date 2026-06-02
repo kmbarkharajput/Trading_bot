@@ -15,13 +15,13 @@ pip install -r requirements.txt
 
 ## Create .env file:
 - Create .env file:
-BINANCE_API_KEY=your_testnet_key
-BINANCE_API_SECRET=your_testnet_secret
+- BINANCE_API_KEY=your_testnet_key
+- BINANCE_API_SECRET=your_testnet_secret
 
 ## How to run
 - Market order 
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
--- Limit order
+- Limit order
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 120000
 
 ## Output
